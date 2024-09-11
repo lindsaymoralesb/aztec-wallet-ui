@@ -1,0 +1,49 @@
+.aztec-wallet {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.aztec-wallet h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.connect-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tab-container {
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tab-button.active {
+    background-color: #ddd;
+}
+
+.account-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.account-list li {
+    margin-bottom: 5px;
+}
