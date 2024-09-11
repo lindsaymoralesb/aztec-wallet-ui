@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { createPXEClient, waitForPXE, PXE } from "@aztec/aztec.js";
-import './AztecWallet.css';
+import './App.css';
 
-const AztecWallet = () => {
+const App = () => {
   const [activeTab, setActiveTab] = useState('overview');
   const [connected, setConnected] = useState(false);
   const [pxe, setPxe] = useState<PXE | null>(null);
@@ -78,4 +78,4 @@ const AztecWallet = () => {
   );
 };
 
-export default AztecWallet;
+export default App;
